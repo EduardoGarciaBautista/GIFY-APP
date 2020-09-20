@@ -8,11 +8,6 @@ export const GifExpertApp = () => {
 
     const [categories, setcategories] = useState(['GOKU']);
 
-
-    const handleAdd = (element) => {
-        setcategories([element, ...categories]);
-    }
-
     return (
         <>
             <h2>Gif Expert</h2>
