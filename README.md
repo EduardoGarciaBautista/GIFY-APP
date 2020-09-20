@@ -1,5 +1,5 @@
-This is a simple App that was part of react personal courses.
-Features:
+## This is a simple App that was part of react personal courses.
+## Features:
 1.- Conected to GIPHY for developers,
 2.- Using React Functional components
 3.- Custom Hooks.
