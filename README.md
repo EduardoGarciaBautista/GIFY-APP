@@ -4,6 +4,11 @@
 2.- Using React Functional components
 3.- Custom Hooks.
 4.- Prop Types
+5.- Tests
+
+## Suite Tests
+
+Tests suite is made with Enzime and Enzyme to json
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
