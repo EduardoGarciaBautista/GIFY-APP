@@ -8,7 +8,7 @@
 
 ## Suite Tests
 
-Tests suite is made with Jest Enzime and Enzyme to json
+Tests suite is made with Jest Enzime, React Hooks testing library and Enzyme to json
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
