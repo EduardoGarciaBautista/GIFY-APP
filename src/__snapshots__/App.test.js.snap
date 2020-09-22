@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for App should Match with snapshot 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert
+  </h2>
+  <AddCategory
+    setcategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Tests for App should show a categories list 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert
+  </h2>
+  <AddCategory
+    setcategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Goku"
+      key="Goku"
+    />
+  </ol>
+</Fragment>
+`;

@@ -8,12 +8,18 @@ const AddCategory = ({setcategories}) => {
 
     const handleOnChange = (e) => {
         setInputValue(e.target.value);
+
+        console.log('EVENT HANDLE');
     }
 
     const handleSubmit = (event) => {
         event.preventDefault();
+
+        console.log('Submitted');
         if (inputValue.length > 2) {
             setcategories(cats => [inputValue,...cats]);
+
+            console.log('setcategories executed');
             setInputValue('');
         }
     }

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import AddCategory from "./Components/AddCategory";
-import { GifGrid } from "./Components/GifGrid";
+import  GifGrid  from "./Components/GifGrid";
 
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({defaultCategories = []}) => {
 
 
-    const [categories, setcategories] = useState(['GOKU']);
+    const [categories, setcategories] = useState(defaultCategories);
 
     return (
         <>
@@ -15,7 +15,7 @@ export const GifExpertApp = () => {
             <hr />
 
             <ol>
-                {categories.map(item => {
+                {categories && categories.map(item => {
                     return (
                         <GifGrid
                             key={item}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test for GifGrid should component be equal to snapshot 1`] = `
+<div
+  className="card-grid"
+>
+  <h1>
+    Cargando...
+  </h1>
+</div>
+`;
+
+exports[`test for GifGrid should show item when images are loaded 1`] = `
+<div
+  className="card-grid"
+>
+  <GifGridItem
+    id="fdgfsd"
+    key="fdgfsd"
+    title="Test Mock"
+    url="https://test.com"
+  />
+</div>
+`;
