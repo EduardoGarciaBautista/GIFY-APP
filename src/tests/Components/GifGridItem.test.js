@@ -39,7 +39,7 @@ describe('Test for GifGridItem component', () => {
 
     test('should have animate__fadeIn class', () => {
 
-        const div = wrapper.find('div');
+        const div = wrapper.find('#card');
         const className = 'animate__fadeIn';
 
         expect(div.hasClass(className)).toBe(true)

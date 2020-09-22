@@ -6,6 +6,7 @@ exports[`Tes for AddCategory should compare with snapshot 1`] = `
 >
   <input
     onChange={[Function]}
+    placeholder="Buscar"
     type="text"
     value=""
   />

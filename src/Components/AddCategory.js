@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import {PropTypes} from 'prop-types';
+import { PropTypes } from 'prop-types';
 
-const AddCategory = ({setcategories}) => {
+const AddCategory = ({ setcategories }) => {
 
     const [inputValue, setInputValue] = useState('');
 
@@ -17,7 +17,7 @@ const AddCategory = ({setcategories}) => {
 
         console.log('Submitted');
         if (inputValue.length > 2) {
-            setcategories(cats => [inputValue,...cats]);
+            setcategories(cats => [inputValue, ...cats]);
 
             console.log('setcategories executed');
             setInputValue('');
@@ -27,13 +27,14 @@ const AddCategory = ({setcategories}) => {
     return (
 
         <form onSubmit={handleSubmit}>
-        <input
-                    type="text"
-                    value={inputValue}
-                    onChange={handleOnChange}
-                />
+            <input
+                type="text"
+                placeholder="Buscar"
+                value={inputValue}
+                onChange={handleOnChange}
+            />
         </form>
-     
+
     )
 }
 

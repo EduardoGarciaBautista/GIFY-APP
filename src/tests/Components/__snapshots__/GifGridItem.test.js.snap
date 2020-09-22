@@ -3,13 +3,22 @@
 exports[`Test for GifGridItem component should match component with snapshot 1`] = `
 <div
   className="card animate__fadeIn"
+  id="card"
 >
-  <img
-    alt="Title test"
-    src="https://url.img.com"
-  />
-  <p>
-    Title test
-  </p>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="Title test"
+      src="https://url.img.com"
+    />
+  </div>
+  <div
+    className="footer-contet"
+  >
+    <p>
+      Title test
+    </p>
+  </div>
 </div>
 `;
